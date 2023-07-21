@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Montserrat:wght@300;700&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: wheat;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+}
+
+header .banner_container {
+    height: 7rem;
+    overflow: hidden;
+}
+
+/* Zdjęcie dodane przez Clem Onojeghuo: https://www.pexels.com/pl-pl/zdjecie/wiele-plikow-cookie-375904/ */
+header img {
+    width: 100%;
+}
+
+header .title_container {
+    position: absolute;
+    top: 4rem;
+    background-color: rgb(255, 165, 0);
+    color: aliceblue;
+    max-width: 25rem;
+    padding: 1.5rem 3rem;
+    border-radius: 0 4em 4em 0;
+}
+
+/* peach, custard */
+header .title_container h1 {
+    margin: 0;
+    letter-spacing: 0.2em;
+}
+
+h1,
+h2 {
+    font-family: 'Bodoni Moda', serif;
+    /* serif as back-up font */
+    text-transform: uppercase;
+}
+
+.section_container {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+section {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0.25em;
+}
+
+section.information .opening_hours {
+    width: 90%;
+    border: 0.3rem solid orange;
+    box-sizing: border-box;
+    margin: 1.3rem auto;
+}
+
+.opening_hours hr {
+    background: orange;
+    width: 40%;
+    height: 0.15rem;
+    border-width: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.opening_hours ul li {
+    padding: 0.3rem;
+}
+
+.information img {
+    width: 100%;
+}
+
+section.menu {
+    background-color: rgb(252, 235, 210);
+}
+
+section.menu hr {
+    background: wheat;
+    width: 40%;
+    height: 0.15rem;
+    border-width: 0;
+}
+
+/* !important szczególnie wtedy, gdyby to było NAD sekcją z samym ul ( a tam padding: 0; */
+section.menu ul {
+    padding: 1.2rem !important;
+}
+
+section ul li h3 {
+    font-family: 'Bodoni Moda', serif;
+    /* text-transform: uppercase; */
+}
+
+section .special  {
+    padding: 1em 3.5em;
+}
+
+.top_graphic {
+    position: absolute;
+    top: 17rem;
+    right: 0;
+    background-color: palegreen;
+    width: 9rem;
+    height: 4rem;
+    border-radius: 2em 0 0 2em;
+}
+
+.bottom_graphic {
+    position: absolute;
+    top: 48rem;
+    left: 0;
+    background-color: lawngreen;
+    width: 11rem;
+    height: 4rem;
+    border-radius: 0 2em 2em 0;
+}
+
+footer {
+    background-color: oldlace;
+    padding: 2rem;
+}
+
+footer address{
+    font-style: normal;
+}
+
+address a {
+    color:gray;
+    font-weight: 700;
+    text-decoration: dotted;
+}
+
+address a:hover {
+    color: orange;
+}
+
+
