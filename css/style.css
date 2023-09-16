@@ -61,7 +61,7 @@ section.information .opening_hours {
     width: 90%;
     border: 0.3rem solid orange;
     box-sizing: border-box;
-    margin: 1.3rem auto;
+    margin: 4rem auto;
 }
 
 .opening_hours hr {
@@ -124,7 +124,7 @@ section .special  {
     position: absolute;
     top: 48rem;
     left: 0;
-    background-color: lawngreen;
+    background-color: yellowgreen;
     width: 11rem;
     height: 4rem;
     border-radius: 0 2em 2em 0;
